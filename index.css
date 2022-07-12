@@ -1,0 +1,220 @@
+body{
+   background-image: url(bodyBg.jpg)
+}
+.frame1{
+    
+    height: 800px;
+    width: 1500px;
+    margin-top: 100px;
+    margin-left: 350px;
+    display: block;
+
+}
+.caveBg{
+    height: 800px;
+    width: 1200px;
+    background-image: url(dungeon.gif);
+    border-radius: 2%;
+}
+
+.title{
+    font-size: 150px;
+    color: yellow;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.clickPlay{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 60px;
+    color: red;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#strBtn{
+    margin-left: 530px;
+    height: 50px;
+    width: 150px;
+    margin-top: 150px;
+    font-size: 30px;
+    background-color: black;
+    color:yellow;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 10%;
+    border-color: red;
+}
+
+.frame2{
+    height: 800px;
+    width: 1200px;
+    margin-top: 100px;
+    margin-left: 350px;
+    display: none;
+    
+   
+}
+
+.inDungeon{
+    height: 800px;
+    width: 1200px;
+    background-image: url(inDungeon.gif);
+    border-radius: 2%;
+}
+
+.pick{
+    margin-left: 25px;
+    margin-top: 50px;
+    height: 50px;
+    width: 300px;
+    font-size: 45px;
+    text-align: center;
+    border-radius: 5%;
+    color: yellow;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+}
+
+.intro{
+    color: yellow;
+    text-align: center;
+    margin-top: -120px;
+    font-size: 25px;
+  
+}
+
+#question{
+    font-size: 80px;
+    color: yellow;
+    margin-left: 20px;
+}
+
+.quesInput{
+    margin-left: 350px;
+    margin-top: -60px;
+}
+
+#quesBox{
+    height: 50px;
+    width: 800px;
+    margin-left: 20px;
+    margin-top: -10px;
+    font-size: 50px;
+    text-align: center;
+    background-color: gray;
+    border-color:white;
+}
+
+.response{
+    margin-top: 20px;
+}
+#response{
+    font-size: 80px;
+    color: yellow;
+    margin-left: 20px;
+}
+
+.resInput{
+    margin-left: 350px;
+    margin-top: -60px;
+}
+
+#resBox{
+    height: 50px;
+    width: 800px;
+    margin-left: 20px;
+    margin-top: -10px;
+    font-size: 30px;
+    text-align: center;
+    background-color: gray;
+    border-color:white;
+}
+
+.enterButton{
+    margin-top: 150px;
+    margin-left: 20px;
+}
+
+#enterBtn{
+    height: 50px;
+    width: 200px;
+    font-size: 40px;
+    background-color: black;
+    color: yellow;
+    border-color: white;
+}
+
+.clearButton{
+    margin-top: 50px;
+    margin-left: 20px
+}
+
+#clearBtn{
+    height: 50px;
+    width: 200px;
+    font-size: 40px;
+    background-color: black;
+    color: yellow;
+    border-color: white;
+}
+
+.finishButton{
+    margin-left: 970px;
+ 
+}
+#fnsBtn{
+    height: 50px;
+    width: 200px;
+    font-size: 40px;
+    background-color: black;
+    color: yellow;
+    border-color: white;
+}
+
+.parrotPic{
+    margin-left: 550px;
+   
+}
+#parrot{
+    margin-top: -340px;
+    height: 420px;
+    width: 200px;
+    display: none;
+}
+
+.convictPic{
+    margin-left: 420px;
+}
+
+#convict{
+    margin-top: -350px;
+    height: 350px;
+    width: 500px;
+    display: none;
+}
+
+.foolPic{
+    margin-left: 450px;
+}
+
+#fool{
+    margin-top: -290px;
+    height: 300px;
+    width: 300px;
+    display: none;
+}
+
+.guardPic{
+    margin-left: 450px;
+}
+
+#guard{
+    margin-top: -350px;
+    height: 400px;
+    width: 450px;
+    display: none;
+}
+
+.author{
+    margin-left: 1000px;
+}

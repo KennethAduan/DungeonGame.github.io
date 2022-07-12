@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="console.png" />
+    <link rel="stylesheet" href="index.css">
+    <title>Dungeon Escape</title>
+</head>
+<body>
+    <div class="frame1" id="frame1">
+        <div class="caveBg">
+            <div class="title">
+                Dungeon <br> Escape
+            </div>
+            <div class="clickPlay">Press start to Play</div>
+            <div class="startBtn">
+                <button id="strBtn" >Start</button>
+            </div>
+            <div class="author">
+                @Created by: Kineto etuc
+            </div>
+        </div>
+    </div>
+    <div class="frame2" id="frame2">
+        <div class="inDungeon">
+            <form>
+                <select name="pickHere" id="pickHere" class="pick" onchange="showImage()">
+                    <option value="PICK HERE">PICK HERE</option>
+                    <option value="Parrot">Parrot</option>
+                    <option value="Convict">Convict</option>
+                    <option value="Fool">Fool</option>
+                    <option value="Guard">Guard</option>
+                </select>
+            </form>
+            <div class="intro">
+                <h1>A DUNGEON</h1>
+                <p>You find yourself in a dungeon. <br>A parrot, a convict, and a fool are also there. <br>The guard is looking at you.</p>
+            </div>
+            <div class="question">
+                <label id="question">Question:</label>
+            </div>
+            <div class="quesInput">
+                <input type="text" id="quesBox">
+            </div>
+            <div class="response">
+                <label id="response">Response:</label>
+            </div>
+            <div class="resInput">
+                <input type="text" id="resBox">
+            </div>
+            <div class="enterButton">
+                <button id="enterBtn">Enter</button>
+            </div>
+            <div class="clearButton">
+                <button id="clearBtn">Clear</button>
+            </div>
+            <div class="finishButton">
+                <button id="fnsBtn">Finish</button>
+            </div>
+            <div class="parrotPic">
+                <img src="parrot.gif" alt="Parrot" id="parrot">
+            </div>
+            <div class="convictPic">
+                <img src="Convict.gif" alt="Convict" id="convict">
+            </div>
+            <div class="foolPic">
+                <img src="fool.gif" alt="Fool" id="fool">
+            </div>
+            <div class="guardPic">
+                <img src="guard.gif" alt="Guard" id="guard">
+            </div>
+            
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
